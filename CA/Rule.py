@@ -36,5 +36,7 @@ def chickOverAround(p,allPeople):
     if p.x<=0 or p.x>=Data.ROOM_M:
         # p.logo=Data.BasicData.LOGO_NULL
         allPeople.remove(p)
+        a=[]
 
-
+#
+#

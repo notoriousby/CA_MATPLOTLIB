@@ -23,8 +23,7 @@ while Data.flag:
         income.outDirection(p,allPeople)
 
         direction=max(p.allInComeBySort.items(),key=lambda  x:x[1])[0]
-        if direction !=4 and direction!=6:
-            time.sleep(1000)
+
         Rule.chickOverAround(p,allPeople)
         Rule.PeopleMove(p,direction)
         # print(p.grendIncome)
