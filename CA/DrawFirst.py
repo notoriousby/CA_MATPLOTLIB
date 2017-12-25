@@ -66,7 +66,7 @@ class draw():
     '''绘制墙壁和出口'''
     def drawWallAndExit(self):
         '''墙壁为实线'''
-        plt.plot([0,Data.ROOM_M],[0,0],'b-')# down
+        plt.plot([0,Data.ROOM_M],[10,10],'b-')# down
         plt.plot([0,Data.ROOM_M],[Data.ROOM_N,Data.ROOM_N],'b-')# up
         '''出口为虚线'''
         plt.plot([0,0],[0,Data.ROOM_N],'y--')#left and right
